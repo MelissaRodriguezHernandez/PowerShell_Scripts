@@ -22,6 +22,32 @@ Set-ExecutionPolicy Unrestricted`
 
 ## Script 1
 
+[Enlace al archivo](https://github.com/MelissaRodriguezHernandez/PowerShell_Scripts/blob/main/Scripts/1.ps1)
+
+~~~
+
+~~~
+
+![]()
+
 ## Script 2
 
+[Enlace al archivo](https://github.com/MelissaRodriguezHernandez/PowerShell_Scripts/blob/main/Scripts/2.ps1)
+
+
+~~~
+
+~~~
+
+![]()
+
 ## Script 3
+
+[Enlace al archivo](https://github.com/MelissaRodriguezHernandez/PowerShell_Scripts/blob/main/Scripts/3.ps1)
+
+
+~~~
+
+~~~
+
+![]()
