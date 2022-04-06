@@ -15,7 +15,7 @@ Get-ExecutionPolicy
 Si el resultado nos dice 'restricted' significa que esta limitado, para quitar esas limitaciones usaremos el siguiente comando:
 
 ~~~
-Set-ExecutionPolicy Unrestricted`
+Set-ExecutionPolicy Unrestricted
 ~~~
 
 ![]()
