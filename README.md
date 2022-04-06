@@ -29,6 +29,9 @@ Set-ExecutionPolicy Unrestricted
 ~~~
 .\1.ps1
 ~~~
+
+Descripción: 
+
 Resultado :
 
 ![resultado script 1](https://github.com/MelissaRodriguezHernandez/PowerShell_Scripts/blob/main/img/Script1.png)
@@ -40,6 +43,8 @@ Resultado :
 ~~~
 .\2.ps1
 ~~~
+
+Descripción: 
 
 Resultado:
 
@@ -54,6 +59,8 @@ Resultado:
 ~~~
 .\2.ps1
 ~~~
+
+Descripción: 
 
 Resultado: 
 
