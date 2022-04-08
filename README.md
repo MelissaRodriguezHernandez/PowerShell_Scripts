@@ -31,6 +31,7 @@ Set-ExecutionPolicy Unrestricted
 ~~~
 
 Descripción: 
+Se declaran una variable llamada *number*, se le asigna diferentes valores y se saca por pantalla por cada valor.
 
 Resultado :
 
@@ -44,7 +45,19 @@ Resultado :
 .\2.ps1
 ~~~
 
-Descripción: 
+Descripción:
+
+Primera parte. Tenemos una variable integer que tiene asignado un número, y a traves de una iteración de tipo *for* se irá imprimiendo por pantalla *hello* la cantidad igual al número asignado a esa variable.
+
+Segunda parte. Seguimos teniendo una variable de tipo integer y a traves de un bucle se ira imprimiendo por pantalla *hello* el numero de veces que hemos asignado.
+
+Tercera parte. Es casi igual al anterior pero en este caso le sumamos un *do* al *while*.
+
+(Estas tres primeras partes representan los 15 *hello* que salen por pantalla)
+
+Cuarta parte. Se declara en una variable de tipo *String* el texto *PowerShell for Beginners*, y a través del bucle *foreach* se va impriendo por pantalla letra por letra el String antes declarado.
+
+Quinta parte. Volvemos a declarar una variable de tipo *String* con el mismo contenido de la parte anterior, y, a traves de comandos concatenados sacamos por pantalla el contenido letra por letra.
 
 Resultado:
 
