@@ -1,10 +1,10 @@
 # PowerShell Scripts
 
-> Esta práctica tiene el objetivo de analizar y docmuentar una serie de scripts de PowerShell
+> Esta práctica tiene el objetivo de analizar y documentar una serie de scripts de PowerShell
 
 ## Requisitos previos
 
-Powershell tiene restringida la ejecucion de scripts para asegurar la seguridad de la máquina y prevenir ataques malicios. Debido a esto tendremos que configurarlo.
+Powershell tiene restringida la ejecución de scripts para asegurar la seguridad de la máquina y prevenir ataques maliciosos. Debido a esto tendremos que configurarlo.
 
 Con el código siguiente podremos saber el estado de las restricciones:
 
@@ -14,7 +14,7 @@ Get-ExecutionPolicy
 
 ![ver estado](https://github.com/MelissaRodriguezHernandez/PowerShell_Scripts/blob/main/img/ver%20estado.png)
 
-Si el resultado nos dice 'restricted' significa que esta limitado, para quitar esas limitaciones usaremos el siguiente comando:
+Si el resultado nos dice 'restricted' significa que está limitado, para quitar esas limitaciones usaremos el siguiente comando:
 
 ~~~
 Set-ExecutionPolicy Unrestricted
@@ -47,17 +47,17 @@ Resultado :
 
 Descripción:
 
-Primera parte. Tenemos una variable integer que tiene asignado un número, y a traves de una iteración de tipo *for* se irá imprimiendo por pantalla *hello* la cantidad igual al número asignado a esa variable.
+Primera parte. Tenemos una variable integer que tiene asignado un número, y a través de una iteración de tipo *for* se irá imprimiendo por pantalla *hello* la cantidad igual al número asignado a esa variable.
 
-Segunda parte. Seguimos teniendo una variable de tipo integer y a traves de un bucle se ira imprimiendo por pantalla *hello* el numero de veces que hemos asignado.
+Segunda parte. Seguimos teniendo una variable de tipo integer y a través de un bucle se ira imprimiendo por pantalla *hello* el número de veces que hemos asignado.
 
 Tercera parte. Es casi igual al anterior pero en este caso le sumamos un *do* al *while*.
 
 (Estas tres primeras partes representan los 15 *hello* que salen por pantalla)
 
-Cuarta parte. Se declara en una variable de tipo *String* el texto *PowerShell for Beginners*, y a través del bucle *foreach* se va impriendo por pantalla letra por letra el String antes declarado.
+Cuarta parte. Se declara en una variable de tipo *String* el texto *PowerShell for Beginners*, y a través del bucle *foreach* se va imprimiendo por pantalla letra por letra el String antes declarado.
 
-Quinta parte. Volvemos a declarar una variable de tipo *String* con el mismo contenido de la parte anterior, y, a traves de comandos concatenados sacamos por pantalla el contenido letra por letra.
+Quinta parte. Volvemos a declarar una variable de tipo *String* con el mismo contenido de la parte anterior, y, a través de comandos concatenados sacamos por pantalla el contenido letra por letra.
 
 Resultado:
 
@@ -74,6 +74,9 @@ Resultado:
 ~~~
 
 Descripción: 
+
+Este script nos demuestra la importancia de definir bien el tipo de variable que usamos. 
+También contiene una pequeño juego al final con diferentes opciones que nos dará distintos resultados según nuestra elección (left, right).
 
 Resultado: 
 
